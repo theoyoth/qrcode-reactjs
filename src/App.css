@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  padding:1rem;
+  display:grid;
+  place-items:center;
+}
+
+.app-name{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom:1rem;
+}
+
+.desc-app{
+  text-align: center;
+  margin-bottom:1rem;
+}
+
+.form{
+  width:300px;
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:1rem;
+}
+
+.input-field{
+  padding:6px 10px;
+  border-radius:5px;
+  border:none;
+  outline:none;
+  background-color:whitesmoke;
+  color:black;
+}
+
+.btn-gen{
+  padding:6px 10px;
+  background-color:rgb(238, 156, 34);
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  transition:background-color .2s ease-in-out;
+}
+
+.btn-gen:hover{
+  background-color:rgb(228, 136, 50);
+}
+
+.qrcode-container{
+  display:block;
+  margin-bottom: 1rem;
+}
+
+.btn-download{
+  display:block;
+  background-color:rgb(238, 156, 34);
+  padding: 6px 10px;
+  border-radius: 5px;
+  color:whitesmoke;
+  text-decoration:none;
+  text-align:center;
+  transition: background-color .2s ease-in-out;
+}
+
+.btn-download:hover{
+  background-color:rgb(228, 136, 50);
+}
+
+.copyright{
+  text-align:center;
+  font-size:12px;
+  color:#4c4c74;
+}
